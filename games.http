@@ -1,0 +1,30 @@
+
+GET http://localhost:5293/games
+
+###
+GET http://localhost:5293/games/3
+
+###
+POST http://localhost:5293/games
+Content-Type: application/json
+
+{
+    "name": "Minecraft",
+    "genere" : "Kids",
+    "price": 15.40,
+    "releaseDate": "2011-11-08" 
+}
+
+###
+PUT http://localhost:5293/games/3
+Content-Type: application/json
+
+  {
+    "name": "NFS MV X",
+    "genre": "Racing",
+    "price": 55.8,
+    "releaseDate": "2024-01-15"
+  },
+
+  ###
+  DELETE  http://localhost:5293/games/4
