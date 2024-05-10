@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj": {}
+    "C:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj": {
+    "C:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj",
+        "projectUniqueName": "C:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj",
         "projectName": "GameStore.API",
-        "projectPath": "c:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj",
+        "projectPath": "C:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\GameStore.API.csproj",
         "packagesPath": "C:\\Users\\chalaka.karunarathne\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\obj\\",
+        "outputPath": "C:\\Users\\chalaka.karunarathne\\Desktop\\CsharpProjects\\TestProject\\GameStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalaka.karunarathne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
